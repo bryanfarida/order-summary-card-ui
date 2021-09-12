@@ -1,0 +1,113 @@
+body {
+    position: relative;
+    align-items: center;
+    text-align: center;
+    background-color: #f0f2f7;
+}
+
+.container {
+    margin: 70px auto;
+    width: 365px;
+    height: 657px;
+    border-radius: 20px;
+    box-shadow: 0 10px 50px #E5E5E5;
+    background-color: white;
+}
+
+.image {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 365px;
+}
+
+.order-summary {
+    margin: 35px auto;
+}
+
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.8em;
+    line-height: 1.5;
+    color: #1f2942;
+}
+
+p {
+    font-family: 'Ubuntu', sans-serif;
+    color: #798193;
+    line-height: 2;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.pricing-box {
+    background-color: #f5f7ff;
+    border-radius: 10px;
+    margin: 17px;
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plan {
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.pricing {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+}
+
+.change-btn {
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: underline;
+    font-size: 15px;
+    color: #382ae2;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+}
+
+.payment-btn {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 10px;
+    display: inline-block;
+    background-color: #382ae1;
+    color: white;
+    margin: 6px 17px;
+    padding: 16px;
+    box-shadow: 0 5px 15px #c0ccf2;
+    z-index: 10;
+}
+
+.cancel-btn {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 10px;
+    display: inline-block;
+    background-color: white;
+    color: #798193;
+    margin: auto 17px;
+    padding: 16px;
+}
+
+.attribution {
+    font-family: 'Caveat', cursive;
+    position: relative;
+    display: block;
+    top: 90px;
+    font-size: 18px;
+    color: gray;
+}
